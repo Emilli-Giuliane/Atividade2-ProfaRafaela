@@ -2,7 +2,6 @@ public class CaldeiraChocolate {
 
     private boolean vazia;   
     private boolean fervida; 
-    
 
     private static CaldeiraChocolate instancia;
 
@@ -54,7 +53,17 @@ public class CaldeiraChocolate {
             System.out.println("A mistura ainda não foi fervida.");
         }
     }
+        // getters e setters
+        public boolean getVazia(){
+            return vazia;
+        }
+        public void setVazia(boolean vazia){
+            this.vazia = vazia;
+        }
+        public boolean getFervida(){
+            return fervida;
+        }
+        public void setFervida(boolean fervida){
+            this.fervida = fervida;
+        }
 }
-
-
-
